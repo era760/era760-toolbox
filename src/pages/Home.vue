@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import BaseButton from "../components/BaseButton.vue";
-
+//
 const openGitHub = () => {
   window.open("https://github.com/era760/era760-toolbox", "_blank");
 };
