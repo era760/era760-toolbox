@@ -10,7 +10,9 @@ const openGitHub = () => {
   <div class="flex flex-col items-center gap-3">
     <h1 class="text-3xl font-bold">era760's ToolBox</h1>
     <p class="font-medium">Minecraftアドオン開発を、もっと簡単に。</p>
-    <p class="font-medium text-sm text-zinc-400">動作確認済み環境：Windows 11 151.0.4129.15</p>
+    <p class="font-medium text-sm text-zinc-400">
+      動作確認済み環境：Windows 11 / Microsoft Edge 151.0.4129.15 / Google Chrome 150.0.7871.182
+    </p>
 
     <div class="flex flex-col gap-8 mt-2">
       <RouterLink to="/uuid" class="w-80">
