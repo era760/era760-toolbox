@@ -8,4 +8,5 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
-})
+  base: "/era760-toolbox/",
+});
