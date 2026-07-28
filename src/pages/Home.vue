@@ -19,8 +19,8 @@ const openGitHub = () => {
         <BaseButton class="w-full">UUID Generator(Beta)</BaseButton>
       </RouterLink>
 
-      <BaseButton class="w-80">Item JSON Generator(WIP)</BaseButton>
       <BaseButton class="w-80">Manifest Generator(WIP)</BaseButton>
+      <BaseButton class="w-80">Item JSON Generator(WIP)</BaseButton>
       <BaseButton class="w-80">and more!</BaseButton>
 
       <BaseButton class="w-80 bg-[#423f3f]! hover:!bg[#4d4a4a]" @click="openGitHub"> GitHub </BaseButton>
