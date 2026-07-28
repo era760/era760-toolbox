@@ -18,8 +18,9 @@ const openGitHub = () => {
       <RouterLink to="/uuid" class="w-80">
         <BaseButton class="w-full">UUID Generator(Beta)</BaseButton>
       </RouterLink>
-
-      <BaseButton class="w-80">Manifest Generator(WIP)</BaseButton>
+      <RouterLink to="/manifest" class="w-80">
+        <BaseButton class="w-full">Manifest Generator(Beta)</BaseButton>
+      </RouterLink>
       <BaseButton class="w-80">Item JSON Generator(WIP)</BaseButton>
       <BaseButton class="w-80">and more!</BaseButton>
 
