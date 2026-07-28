@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import BaseButton from "../components/BaseButton.vue";
 import { generateUUID } from "../utils/uuid";
+import { returnPage } from "../utils/navigation.ts";
 
 const currentUUID = ref<string>("");
 const copied = ref<boolean>(false);
@@ -25,10 +26,6 @@ const handleCopy = async () => {
   } catch (error) {
     console.error("コピーに失敗しました。", error);
   }
-};
-
-const returnPage = () => {
-  history.back();
 };
 </script>
 
