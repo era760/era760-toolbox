@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
 import UUIDGenerator from '../pages/UUIDGenerator.vue'
 import ManifestGenerator from '../pages/ManifestGenerator.vue'
+import ManifestGenFaq from '../pages/faqs/manifestGenFaq.vue'
 
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
   {
     path: '/manifest',
     component: ManifestGenerator,
+  },
+  {
+    path: '/faq/manifest',
+    component: ManifestGenFaq,
   },
 ]
 
