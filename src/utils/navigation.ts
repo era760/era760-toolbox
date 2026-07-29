@@ -1,3 +1,9 @@
+import router from '../router'
+
 export function returnPage() {
-    history.back();
+  if (window.history.length > 1) {
+    router.back()
+  } else {
+    router.push('/')
+  }
 }
